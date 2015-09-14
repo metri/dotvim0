@@ -1,0 +1,20 @@
+Description="MyWhite"
+Default        = { Colour="#101010" }
+Canvas         = { Colour="#ffffff" }
+Number         = { Colour="#298487" }
+String         = { Colour="#C72435" }
+Escape         = String
+StringPreProc  = String
+Interpolation  = { Colour="#C72435" }
+BlockComment   = { Colour="#707070" }
+LineComment    = BlockComment
+PreProcessor   = { Colour="#575757" }
+LineNum        = { Colour="#888888" }
+Operator       = Default
+
+Keywords = {
+  { Colour= "#101010", Bold=true },
+  { Colour= "#334473", Bold=true },
+  { Colour= "#334473", Bold=true },
+  { Colour= "#0054BE" },
+}
